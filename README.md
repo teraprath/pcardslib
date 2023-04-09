@@ -35,3 +35,32 @@ dependencies {
     implementation 'com.github.teraprath:pcardslib:1.0-SNAPSHOT'
 }
 ````
+****
+Example Code
+````java
+public class Test {
+
+    // Initialize new deck (auto-shuffled)
+    final static Deck deck = new Deck(DeckSize.DEFAULT);
+
+    public static void main(String[] args) {
+
+        // Print cards
+        deck.getCards().forEach(card -> {
+            System.out.println("[" + card.getRank().getString() + card.getSuit().getString() + "]");
+        });
+
+    }
+
+}
+````
+Output
+````
+...
+[3♦]
+[J♠]
+[5♣]
+[7♦]
+[9♠]
+[6♥]
+````

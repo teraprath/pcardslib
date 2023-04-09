@@ -1,4 +1,4 @@
-[![](https://jitpack.io/v/teraprath/corelib.svg)](https://jitpack.io/#teraprath/pcardslib)
+[![](https://jitpack.io/v/teraprath/pcardslib.svg)](https://jitpack.io/#teraprath/pcardslib)
 
 ****
 

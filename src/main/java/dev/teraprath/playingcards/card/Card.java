@@ -46,4 +46,8 @@ public class Card {
         };
     }
 
+    public String getName() {
+        return this.suit.getIcon() + this.rank.getInitial();
+    }
+
 }

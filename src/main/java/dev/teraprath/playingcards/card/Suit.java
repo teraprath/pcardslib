@@ -13,7 +13,7 @@ public enum Suit {
         this.icon = string;
     }
 
-    public String getString() {
+    public String getIcon() {
         return this.icon;
     }
 

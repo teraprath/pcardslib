@@ -1,4 +1,4 @@
-[![](https://jitpack.io/v/teraprath/pcardslib.svg)](https://jitpack.io/#teraprath/pcardslib)
+[![](https://jitpack.io/v/teraprath/playing-cards.svg)](https://jitpack.io/#teraprath/playing-cards)
 
 ****
 
@@ -17,7 +17,7 @@ Maven
 <dependency>
     <groupId>com.github.teraprath</groupId>
     <artifactId>playing-cards</artifactId>
-    <version>1.2-SNAPSHOT</version>
+    <version>VERSION_TAG</version>
 </dependency>
 ````
 
@@ -32,24 +32,10 @@ repositories {
 ````
 ````
 dependencies {
-    implementation 'com.github.teraprath:playing-cards:1.2-SNAPSHOT'
+    implementation 'com.github.teraprath:playing-cards:VERSION_TAG'
 }
 ````
-****
-Example Code
-````java
 
-// Initialize new deck (auto-shuffled)
-Deck deck = new Deck(DeckSize.DEFAULT);
+## Setup
 
-````
-Output
-````
-...
-[3♦]
-[J♠]
-[5♣]
-[7♦]
-[9♠]
-[6♥]
-````
+Visit [wiki](https://github.com/teraprath/playing-cards/wiki/) page to see usage guide.

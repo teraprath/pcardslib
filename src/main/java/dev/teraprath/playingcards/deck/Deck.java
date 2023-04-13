@@ -46,6 +46,16 @@ public class Deck {
         return this.cards;
     }
 
+    public void addCard(Card card) {
+        this.cards.add(card);
+    }
+
+    public Card draw(boolean delete) {
+        Card card = this.cards.get(0);
+        if (delete) { this.cards.remove(card); }
+        return card;
+    }
+
     public ArrayList<Card> getCardsByRank(Rank rank) {
         ArrayList<Card> filter = new ArrayList<>();
         cards.forEach(card -> {

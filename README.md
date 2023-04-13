@@ -16,8 +16,8 @@ Maven
 
 <dependency>
     <groupId>com.github.teraprath</groupId>
-    <artifactId>pcardslib</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <artifactId>playing-cards</artifactId>
+    <version>1.2-SNAPSHOT</version>
 </dependency>
 ````
 
@@ -32,27 +32,16 @@ repositories {
 ````
 ````
 dependencies {
-    implementation 'com.github.teraprath:pcardslib:1.0-SNAPSHOT'
+    implementation 'com.github.teraprath:playing-cards:1.2-SNAPSHOT'
 }
 ````
 ****
 Example Code
 ````java
-public class Test {
 
-    // Initialize new deck (auto-shuffled)
-    final static Deck deck = new Deck(DeckSize.DEFAULT);
+// Initialize new deck (auto-shuffled)
+Deck deck = new Deck(DeckSize.DEFAULT);
 
-    public static void main(String[] args) {
-
-        // Print cards
-        deck.getCards().forEach(card -> {
-            System.out.println("[" + card.getRank().getString() + card.getSuit().getString() + "]");
-        });
-
-    }
-
-}
 ````
 Output
 ````

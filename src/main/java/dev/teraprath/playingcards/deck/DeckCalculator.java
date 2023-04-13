@@ -60,7 +60,7 @@ public class DeckCalculator {
         return i.get();
     }
 
-    public int getCardValues(int ace, int jack, int queen, int king) {
+    public int getCardValues() {
         AtomicInteger i = new AtomicInteger();
         this.values.forEach((rank, value) -> {
             i.addAndGet(value);
